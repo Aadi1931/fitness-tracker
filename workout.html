@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Workouts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="gradient-bg">
+
+<h2>🏋️ Workout Tracker</h2>
+
+<nav>
+  <a href="index.html">🏠</a>
+  <a href="nutrition.html">🥗</a>
+  <a href="progress.html">📊</a>
+</nav>
+
+<div class="card">
+  <input id="workout" placeholder="Workout Type (e.g., Cardio)">
+  <input id="duration" type="number" placeholder="Minutes">
+  <button onclick="addWorkout()">➕ Add Workout</button>
+</div>
+
+<ul id="workoutList" class="list"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
